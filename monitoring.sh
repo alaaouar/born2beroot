@@ -1,5 +1,5 @@
 #!/bin/bash
-
+// dont forget to download sysstat  (sudo apt install sysstat)
 arch=$(uname -a)
 pcpu=$(cat /proc/cpuinfo | grep "physical id" | wc -l)
 vcpu=$(cat /proc/cpuinfo | grep "processor" | wc -l)
